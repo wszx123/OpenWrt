@@ -239,7 +239,7 @@ jobs:
         artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
         body: |
           **This is OpenWrt Firmware for Armvirt 64**
-          * 这是 ARMv8 精简版，只集成了一些常用插件
+          * 这是 ARMv8 精简版，只集成了一些常用插件和自己喜欢的主题。
           默认 IP：192.168.1.1 默认密码：password
           【已取消安装到 EMMC：系统 → 晶晨宝盒 → 安装 OpenWrt → 选择型号 → 安装】
           【已取消升级 OpenWrt：系统 → 晶晨宝盒】 → 手动上传更新 或者 在线下载更新
